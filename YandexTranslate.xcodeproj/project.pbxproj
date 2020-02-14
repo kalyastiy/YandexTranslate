@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		321474DA23F6B435000F217B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321474D923F6B435000F217B /* AppDelegate.swift */; };
+		321474DC23F6B435000F217B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321474DB23F6B435000F217B /* SceneDelegate.swift */; };
+		321474DE23F6B435000F217B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321474DD23F6B435000F217B /* ViewController.swift */; };
+		321474E123F6B435000F217B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321474DF23F6B435000F217B /* Main.storyboard */; };
+		321474E423F6B435000F217B /* YandexTranslate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 321474E223F6B435000F217B /* YandexTranslate.xcdatamodeld */; };
+		321474E623F6B436000F217B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 321474E523F6B436000F217B /* Assets.xcassets */; };
+		321474E923F6B436000F217B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321474E723F6B436000F217B /* LaunchScreen.storyboard */; };
+		321474F423F6B437000F217B /* YandexTranslateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321474F323F6B437000F217B /* YandexTranslateTests.swift */; };
+		321474FF23F6B437000F217B /* YandexTranslateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321474FE23F6B437000F217B /* YandexTranslateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		321474F023F6B437000F217B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 321474CE23F6B435000F217B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 321474D523F6B435000F217B;
+			remoteInfo = YandexTranslate;
+		};
+		321474FB23F6B437000F217B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 321474CE23F6B435000F217B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 321474D523F6B435000F217B;
+			remoteInfo = YandexTranslate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		321474D623F6B435000F217B /* YandexTranslate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YandexTranslate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		321474D923F6B435000F217B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		321474DB23F6B435000F217B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		321474DD23F6B435000F217B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		321474E023F6B435000F217B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		321474E323F6B435000F217B /* YandexTranslate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YandexTranslate.xcdatamodel; sourceTree = "<group>"; };
+		321474E523F6B436000F217B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		321474E823F6B436000F217B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		321474EA23F6B436000F217B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		321474EF23F6B437000F217B /* YandexTranslateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YandexTranslateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		321474F323F6B437000F217B /* YandexTranslateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexTranslateTests.swift; sourceTree = "<group>"; };
+		321474F523F6B437000F217B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		321474FA23F6B437000F217B /* YandexTranslateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YandexTranslateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		321474FE23F6B437000F217B /* YandexTranslateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexTranslateUITests.swift; sourceTree = "<group>"; };
+		3214750023F6B437000F217B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		321474D323F6B435000F217B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321474EC23F6B437000F217B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321474F723F6B437000F217B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		321474CD23F6B435000F217B = {
+			isa = PBXGroup;
+			children = (
+				321474D823F6B435000F217B /* YandexTranslate */,
+				321474F223F6B437000F217B /* YandexTranslateTests */,
+				321474FD23F6B437000F217B /* YandexTranslateUITests */,
+				321474D723F6B435000F217B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		321474D723F6B435000F217B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				321474D623F6B435000F217B /* YandexTranslate.app */,
+				321474EF23F6B437000F217B /* YandexTranslateTests.xctest */,
+				321474FA23F6B437000F217B /* YandexTranslateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		321474D823F6B435000F217B /* YandexTranslate */ = {
+			isa = PBXGroup;
+			children = (
+				321474D923F6B435000F217B /* AppDelegate.swift */,
+				321474DB23F6B435000F217B /* SceneDelegate.swift */,
+				321474DD23F6B435000F217B /* ViewController.swift */,
+				321474DF23F6B435000F217B /* Main.storyboard */,
+				321474E523F6B436000F217B /* Assets.xcassets */,
+				321474E723F6B436000F217B /* LaunchScreen.storyboard */,
+				321474EA23F6B436000F217B /* Info.plist */,
+				321474E223F6B435000F217B /* YandexTranslate.xcdatamodeld */,
+			);
+			path = YandexTranslate;
+			sourceTree = "<group>";
+		};
+		321474F223F6B437000F217B /* YandexTranslateTests */ = {
+			isa = PBXGroup;
+			children = (
+				321474F323F6B437000F217B /* YandexTranslateTests.swift */,
+				321474F523F6B437000F217B /* Info.plist */,
+			);
+			path = YandexTranslateTests;
+			sourceTree = "<group>";
+		};
+		321474FD23F6B437000F217B /* YandexTranslateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				321474FE23F6B437000F217B /* YandexTranslateUITests.swift */,
+				3214750023F6B437000F217B /* Info.plist */,
+			);
+			path = YandexTranslateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		321474D523F6B435000F217B /* YandexTranslate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3214750323F6B437000F217B /* Build configuration list for PBXNativeTarget "YandexTranslate" */;
+			buildPhases = (
+				321474D223F6B435000F217B /* Sources */,
+				321474D323F6B435000F217B /* Frameworks */,
+				321474D423F6B435000F217B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YandexTranslate;
+			productName = YandexTranslate;
+			productReference = 321474D623F6B435000F217B /* YandexTranslate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		321474EE23F6B437000F217B /* YandexTranslateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3214750623F6B437000F217B /* Build configuration list for PBXNativeTarget "YandexTranslateTests" */;
+			buildPhases = (
+				321474EB23F6B437000F217B /* Sources */,
+				321474EC23F6B437000F217B /* Frameworks */,
+				321474ED23F6B437000F217B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				321474F123F6B437000F217B /* PBXTargetDependency */,
+			);
+			name = YandexTranslateTests;
+			productName = YandexTranslateTests;
+			productReference = 321474EF23F6B437000F217B /* YandexTranslateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		321474F923F6B437000F217B /* YandexTranslateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3214750923F6B437000F217B /* Build configuration list for PBXNativeTarget "YandexTranslateUITests" */;
+			buildPhases = (
+				321474F623F6B437000F217B /* Sources */,
+				321474F723F6B437000F217B /* Frameworks */,
+				321474F823F6B437000F217B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				321474FC23F6B437000F217B /* PBXTargetDependency */,
+			);
+			name = YandexTranslateUITests;
+			productName = YandexTranslateUITests;
+			productReference = 321474FA23F6B437000F217B /* YandexTranslateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		321474CE23F6B435000F217B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Nikolay Lukyanchikov";
+				TargetAttributes = {
+					321474D523F6B435000F217B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					321474EE23F6B437000F217B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 321474D523F6B435000F217B;
+					};
+					321474F923F6B437000F217B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 321474D523F6B435000F217B;
+					};
+				};
+			};
+			buildConfigurationList = 321474D123F6B435000F217B /* Build configuration list for PBXProject "YandexTranslate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 321474CD23F6B435000F217B;
+			productRefGroup = 321474D723F6B435000F217B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				321474D523F6B435000F217B /* YandexTranslate */,
+				321474EE23F6B437000F217B /* YandexTranslateTests */,
+				321474F923F6B437000F217B /* YandexTranslateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		321474D423F6B435000F217B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321474E923F6B436000F217B /* LaunchScreen.storyboard in Resources */,
+				321474E623F6B436000F217B /* Assets.xcassets in Resources */,
+				321474E123F6B435000F217B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321474ED23F6B437000F217B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321474F823F6B437000F217B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		321474D223F6B435000F217B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321474DE23F6B435000F217B /* ViewController.swift in Sources */,
+				321474DA23F6B435000F217B /* AppDelegate.swift in Sources */,
+				321474DC23F6B435000F217B /* SceneDelegate.swift in Sources */,
+				321474E423F6B435000F217B /* YandexTranslate.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321474EB23F6B437000F217B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321474F423F6B437000F217B /* YandexTranslateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321474F623F6B437000F217B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321474FF23F6B437000F217B /* YandexTranslateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		321474F123F6B437000F217B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 321474D523F6B435000F217B /* YandexTranslate */;
+			targetProxy = 321474F023F6B437000F217B /* PBXContainerItemProxy */;
+		};
+		321474FC23F6B437000F217B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 321474D523F6B435000F217B /* YandexTranslate */;
+			targetProxy = 321474FB23F6B437000F217B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		321474DF23F6B435000F217B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				321474E023F6B435000F217B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		321474E723F6B436000F217B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				321474E823F6B436000F217B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3214750123F6B437000F217B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3214750223F6B437000F217B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3214750423F6B437000F217B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A45865HREW;
+				INFOPLIST_FILE = YandexTranslate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolaylukyanchikov.yandexTranslate.YandexTranslate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3214750523F6B437000F217B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A45865HREW;
+				INFOPLIST_FILE = YandexTranslate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolaylukyanchikov.yandexTranslate.YandexTranslate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3214750723F6B437000F217B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A45865HREW;
+				INFOPLIST_FILE = YandexTranslateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolaylukyanchikov.yandexTranslate.YandexTranslateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YandexTranslate.app/YandexTranslate";
+			};
+			name = Debug;
+		};
+		3214750823F6B437000F217B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A45865HREW;
+				INFOPLIST_FILE = YandexTranslateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolaylukyanchikov.yandexTranslate.YandexTranslateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YandexTranslate.app/YandexTranslate";
+			};
+			name = Release;
+		};
+		3214750A23F6B437000F217B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A45865HREW;
+				INFOPLIST_FILE = YandexTranslateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolaylukyanchikov.yandexTranslate.YandexTranslateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YandexTranslate;
+			};
+			name = Debug;
+		};
+		3214750B23F6B437000F217B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A45865HREW;
+				INFOPLIST_FILE = YandexTranslateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolaylukyanchikov.yandexTranslate.YandexTranslateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YandexTranslate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		321474D123F6B435000F217B /* Build configuration list for PBXProject "YandexTranslate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3214750123F6B437000F217B /* Debug */,
+				3214750223F6B437000F217B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3214750323F6B437000F217B /* Build configuration list for PBXNativeTarget "YandexTranslate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3214750423F6B437000F217B /* Debug */,
+				3214750523F6B437000F217B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3214750623F6B437000F217B /* Build configuration list for PBXNativeTarget "YandexTranslateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3214750723F6B437000F217B /* Debug */,
+				3214750823F6B437000F217B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3214750923F6B437000F217B /* Build configuration list for PBXNativeTarget "YandexTranslateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3214750A23F6B437000F217B /* Debug */,
+				3214750B23F6B437000F217B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		321474E223F6B435000F217B /* YandexTranslate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				321474E323F6B435000F217B /* YandexTranslate.xcdatamodel */,
+			);
+			currentVersion = 321474E323F6B435000F217B /* YandexTranslate.xcdatamodel */;
+			path = YandexTranslate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 321474CE23F6B435000F217B /* Project object */;
+}
